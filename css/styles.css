@@ -1,0 +1,126 @@
+/* https://color.adobe.com/ for color codes */
+/* https://fonts.google.com/ or https://www.dafont.com/ for different fonts */
+
+.top {
+    display: grid;
+    grid-template-columns: 1 fr 2fr 1fr;
+    grid-template-rows: auto;
+    height: auto;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.home {
+    font-size: 18px;
+    margin: auto;
+    justify-content: space-evenly;
+    grid-column: 1/2;
+    grid-row: auto;
+}
+
+.login {
+    font-size: 18px;
+    margin: auto;
+    justify-content: space-evenly;
+    grid-column: 3/4;
+    grid-row: auto;
+}
+
+.logo{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 2/4;
+    grid-row: auto;
+}
+
+.hero {
+    width: 100%;
+}
+
+.products {
+    width: 100%;
+    height: auto;
+    background-color: lightcoral;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.product1 {
+    width: auto;
+    margin: auto;
+    grid-column: 1/2;
+    height: 200px;
+}
+
+.product2 {
+    width: auto;
+    margin: auto;
+    height: 200px;
+    grid-column: 2/3;
+}
+
+.product3 {
+    width: auto;
+    margin: auto;
+    height: 200px;
+    grid-column: 3/4;
+}
+
+@media (min-width: 600px) {
+    .login {
+        font-size: 1.25rem;
+    }
+    .home {
+        font-size: 1.25rem;
+    }
+    .product1 {
+        width: auto;
+        margin: auto;
+        grid-column: 1/2;
+        height: 250px;
+    }
+    .product2 {
+        width: auto;
+        margin: auto;
+        grid-column: 1/2;
+        height: 250px;
+    }
+    .product3 {
+        width: auto;
+        margin: auto;
+        grid-column: 1/2;
+        height: 250px;
+    }
+}
+
+@media (min-width: 800px) {
+    .login {
+        font-size: 1.5rem;
+    }
+    .home {
+        font-size: 1.5rem;
+    }
+    .product1 {
+        width: auto;
+        margin: auto;
+        grid-column: 1/2;
+        height: 250px;
+    }
+    .product2 {
+        width: auto;
+        margin: auto;
+        grid-column: 1/2;
+        height: 250px;
+    }
+    .product3 {
+        width: auto;
+        margin: auto;
+        grid-column: 1/2;
+        height: 250px;
+    }
+}
